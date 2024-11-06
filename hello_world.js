@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-const port = 3000;
+const port = process.env.PORt || 3000;
 
 const studentList = [
   {
