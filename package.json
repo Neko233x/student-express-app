@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node --watch hello_world.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start hello_world.js"
+    "start": "node hello_world.js"
   },
   "author": "",
   "license": "ISC",
