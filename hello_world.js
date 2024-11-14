@@ -9,6 +9,8 @@ app.use(bodyParser.json());
 app.use(cors());
 
 const port = process.env.PORt || 3000;
+const {PrismaClient}= require('@prisma/client')
+const {clerkClient}=require('clerk')
 
 const studentList = [
   {

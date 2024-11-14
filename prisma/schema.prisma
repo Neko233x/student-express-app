@@ -29,3 +29,9 @@ enum GradeEnum{
   JUNIOR
   SENIOR
 }
+
+model User{
+  userId String @id @default(uuid())
+  authId String @unique
+  email String @unique
+}
